@@ -6,4 +6,4 @@ We pledge to make participation in our community a harassment-free experience fo
 - Be respectful of differing viewpoints
 - Accept constructive criticism gracefully
 
-Report abuse to: rudra496@proton.me
+Report abuse to: primeaih@gmail.com
