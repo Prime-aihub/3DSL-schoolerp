@@ -716,3 +716,69 @@ select {
         padding: 8px 15px;
     }
 }
+
+/* ==========================================
+   MOBILE 3D LAB UI FIX
+   APPEND AT VERY BOTTOM
+   ========================================== */
+
+@media (max-width:768px){
+
+    /* Make settings panel compact */
+    .settings-panel,
+    .control-panel,
+    .controls-panel,
+    .ui-panel{
+
+        width:92% !important;
+        max-height:38vh !important;
+        overflow-y:auto !important;
+
+        left:50% !important;
+        transform:translateX(-50%) !important;
+
+        bottom:15px !important;
+        top:auto !important;
+
+        border-radius:22px !important;
+        padding:16px !important;
+
+        backdrop-filter:blur(25px);
+        -webkit-backdrop-filter:blur(25px);
+    }
+
+    /* Smaller buttons */
+    .settings-panel button,
+    .control-panel button,
+    .controls-panel button,
+    .ui-panel button{
+
+        min-height:42px !important;
+        font-size:15px !important;
+        padding:10px 14px !important;
+    }
+
+    /* Compact sliders */
+    input[type="range"]{
+        width:100% !important;
+    }
+
+    /* Compact headings */
+    h2{
+        font-size:22px !important;
+    }
+
+    h3{
+        font-size:18px !important;
+    }
+
+    /* Don't let cards cover half the screen */
+    .card,
+    .popup,
+    .modal{
+
+        max-height:40vh !important;
+        overflow:auto !important;
+    }
+
+}
