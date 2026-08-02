@@ -782,3 +782,92 @@ select {
     }
 
 }
+
+/* ==========================================
+   MOBILE PANEL IMPROVEMENT
+   APPEND AT VERY BOTTOM
+========================================== */
+
+@media (max-width:768px){
+
+    /* Smaller floating settings panel */
+    .panel{
+
+        width:calc(100% - 24px) !important;
+
+        left:12px !important;
+        right:12px !important;
+
+        bottom:12px !important;
+        top:auto !important;
+
+        max-height:30vh !important;
+
+        overflow-y:auto !important;
+
+        padding:12px !important;
+
+        border-radius:18px !important;
+
+        z-index:1000;
+    }
+
+    /* Smaller text */
+
+    .panel h3{
+        font-size:18px !important;
+        margin-bottom:8px;
+    }
+
+    .panel label{
+        font-size:14px !important;
+    }
+
+    /* Smaller buttons */
+
+    .panel button{
+
+        padding:8px 12px !important;
+
+        font-size:14px !important;
+
+        margin-bottom:6px !important;
+    }
+
+    /* Smaller sliders */
+
+    .panel input[type=range]{
+
+        height:4px;
+    }
+
+    /* Info popup */
+
+    .info-box{
+
+        width:calc(100% - 24px) !important;
+
+        left:12px !important;
+        right:12px !important;
+
+        top:72px !important;
+
+        max-height:28vh !important;
+
+        overflow-y:auto !important;
+    }
+
+    /* Smaller back button */
+
+    .back-btn{
+
+        left:12px !important;
+
+        bottom:12px !important;
+
+        padding:8px 14px !important;
+
+        font-size:14px !important;
+    }
+
+}
